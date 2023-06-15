@@ -1,0 +1,22 @@
+.col-md-3 .cartitem_img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.cItemDelete svg:hover
+{
+    cursor: pointer;
+    color: red;
+}
+
+.cart_items
+{
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.cart_items:hover
+{
+    box-shadow: -5px -5px 5px -5px rgba(34, 60, 80, 0.6);
+}

@@ -1,0 +1,57 @@
+.card_add_inp {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 98vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(25px);
+}
+
+.x_btn_admin
+{
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.x_btn_admin svg:hover
+{
+    color: red;
+    cursor: pointer;
+}
+
+/* for tablets and phones fixed size of exit btn (during press pay btn) */
+@media (max-width: 991px){
+    .x_btn_admin
+    {
+        top: 150px;
+        right: 45px;
+    }
+}
+
+
+.card_add_background
+{
+    border-radius: 10px;
+    padding: 50px 40px;
+    background-color: rgba(0, 0, 0, 0.669);
+}
+
+
+
+
+.admin_add_btn svg:hover
+{
+    cursor: pointer;
+    color: rgb(154, 227, 44);
+}
+
+.data_sender_btn :hover
+{
+    cursor: pointer;
+    color: aquamarine;
+}
